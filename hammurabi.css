@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--font: font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#people {
+	display: block;
+	padding-left: 0;
+	/*border: black 1px solid;*/
+	list-style: none;
+	background-color: antiquewhite;
+	text-align: center;
+}
+
+#people li {
+	display: inline;
+	margin-right: 10px;
+	/*border: black 2px solid;*/
+	border-radius: 5px;
+	
+	
+}
+#year{
+	text-align: center;
+}
+#choices{
+	/*background-color: red;*/
+}
+#economy {
+	display: block;
+	padding-left: 0;
+	border: black 1px solid;
+	list-style: none;
+	text-align: center;
+}
+#choices img{
+	width: 35px;
+	padding-left: 12px;
+}
+#coin{
+
+	width: 1%;
+}
+/*
+#wheat{
+	position: absolute;
+	top: 29em;
+	right: 38em;
+	width: 2.5%;
+}
+#bread{
+	position: absolute;
+	top: 57%;
+	right:40% ;
+	width: 2.5%;
+}
+#land{
+	position: absolute;
+	top: 48%;
+	right:40% ;
+	width: 2.5%;
+}
+*/
+
+#economy li {
+	margin-bottom: 1px;
+}
+
+.fieldset {
+	border-style: none;
+	text-align: center;
+}
+
+button {
+	margin: 30px 25px 0 0;
+	padding: 10px 15px;
+	font-family:var(--font);
+		
+}
+#buttons{
+	position: absolute;
+	left: 39.25%;
+}
+button:hover {
+	background: rgb(253, 241, 241);
+	box-shadow: 10px 5px 5px rgb(118, 118, 118);
+}
+
+#nav {
+	display: block;
+	background-color: lightgrey;
+	color: white;
+	padding: 3px;
+	text-align: center;
+	/*box-shadow: 12px 12px 2px rgb(56, 56, 56);
+	font-family: var(--font);*/
+	
+}
+
+#background{
+
+	position: relative;
+	left: 5%;
+	font-family:sans-serif;
+	background-color: rgb(246, 253, 251);
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+	overflow: auto;
+	
+}
+#help{
+	resize: horizontal;
+  	overflow: auto;
+	
+
+	border: 1px solid black;
+	background-color: yellow;
+}
+#help h2{
+	text-align: center;
+}
+
+
+
+
+
