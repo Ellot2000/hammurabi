@@ -1,9 +1,24 @@
+
+/*   
+	Sune Larsson 950903-7157
+	Elliot Eriksson 001130-4672
+*/
+:root{
+	--font: font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
 	margin: 0;
 	padding: 0;
+	background-image: url("http://wallpaperset.com/w/full/0/b/5/180191.jpg");
 }
-:root{
-	--font: font-family:Georgia, 'Times New Roman', Times, serif;
+
+#nav {
+	display: block;
+	color: white;
+	padding: 3px;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 2px 1px rgb(255, 72, 0);
 }
 
 #people {
@@ -11,7 +26,7 @@ body{
 	padding-left: 0;
 	/*border: black 1px solid;*/
 	list-style: none;
-	background-color: antiquewhite;
+	/* background-color: antiquewhite; */
 	text-align: center;
 }
 
@@ -25,42 +40,28 @@ body{
 }
 #year{
 	text-align: center;
+	color: white;
+	/* background-color: whitesmoke; */
+	text-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 2px 1px rgb(255, 72, 0);
+
 }
 #economy {
 	display: block;
 	padding-left: 0;
-	border: black 1px solid;
 	list-style: none;
 	text-align: center;
+	/* background-color: whitesmoke; */
+	/* opacity: 60%; */
 }
 #choices img{
 	width: 35px;
 	padding-left: 12px;
 }
-#coin{
 
-	width: 1%;
+
+#coin{
+	width: 15px;
 }
-/*
-#wheat{
-	position: absolute;
-	top: 29em;
-	right: 38em;
-	width: 2.5%;
-}
-#bread{
-	position: absolute;
-	top: 57%;
-	right:40% ;
-	width: 2.5%;
-}
-#land{
-	position: absolute;
-	top: 48%;
-	right:40% ;
-	width: 2.5%;
-}
-*/
 
 #economy li {
 	margin-bottom: 1px;
@@ -74,43 +75,39 @@ body{
 button {
 	margin: 30px 25px 0 0;
 	padding: 10px 15px;
-	font-family:var(--font);
+	border-radius: 50px;
+	border: 0;
 		
 }
 
 #buttons{
-	position: absolute;
-	left: 39.25%;
+	display: block;
+	text-align: center;
+	border: 0;
 }
 
 button:hover {
-	background: rgb(253, 241, 241);
-	box-shadow: 10px 5px 5px rgb(118, 118, 118);
+	background: rgb(255, 255, 255);
 }
 
-#nav {
-	display: block;
-	background-color: lightgrey;
-	color: white;
-	padding: 3px;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 2px 1px rgb(255, 72, 0);
-	
-}
 
 #background{
-
 	position: fixed;
-	top: 41%;
+	top: 22%;
 	left: 5%;
 	background-color: whitesmoke;
 	font-size: 15px;
-	width: 25%;
+	width: 30%;
 	height: auto;
-	text-align: center;
-	padding: 2px;
-	border-radius: 50px;	
+	text-align: start;
+	padding: 10px;
+	border-radius: 50px;
+	opacity: 0.9;	
 }
+#background h2{
+	text-align: center;
+}
+
 
 a:link { 
 	text-decoration: none; 
@@ -131,17 +128,23 @@ a:active {
 #help{
 	display: none;
 	position: fixed;
-	right: 10px;
-	top: 45%;
+	right: 5%;
+	top: 22%;
 	height: auto;
-	width: 25%;
+	width: 30%;
 	background-color: whitesmoke;
 	border-radius: 50px;
 	padding: 10px;
+	opacity: 0.9;
+	text-align: start;
 }
 
 #help h2{
 	text-align: center;
+}
+
+#picture_links{
+	bottom: 0%;
 }
 
 @media screen and (min-width: 601px) {
