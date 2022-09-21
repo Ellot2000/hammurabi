@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-
 <!-- Sune Larsson 950903-7157 		-->
 <!-- Elliot Eriksson 001130-4672 	-->
 
-
+<!DOCTYPE html>
 <html>
 
 	<head>
@@ -15,58 +13,61 @@
 	</head>
 
 	<body onload="gameStart();">
-		<div id = "nav">
-		<h1>O Great Hammurabi!</h1>
-		</div>
-		<h2 id="year">TEXT-SOM-BYTS-UT-AV-JS-FILEN</h2>
-		<ul id="people">
-			<li id="starved">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-			<li id="newcomers">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-			<li id="population">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-		</ul>
-		<ul id="economy">
-			<li id="acres">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-			<li id="bushels">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-			<img src="/images/coins.png" alt="" id="coin">
-			<li id="harvest">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-			<li id="rats">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-			<li id="price">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
-		</ul>
-		<form>
-	<div id="choices">
-		<fieldset class="fieldset">
-		<legend>Tunnland som ska säljas/köpas: <span id="outputAcrestosellbuy"></span></legend>
-		<input type="button" value="-" id="minusbuttonAcrestosellbuy" onclick="onChangeAcres('minusbuttonAcrestosellbuy');">
-		<input type="range" id="sliderAcrestosellbuy" onchange="onChangeAcres('sliderAcrestosellbuy');">
-		<input type="button" value="+" id="plusbuttonAcrestosellbuy" onclick="onChangeAcres('plusbuttonAcrestosellbuy');">
-		<img src="/images/land.png" alt="" id="land">
-		</fieldset>
-		
-		<fieldset class="fieldset">
-		<legend>Feed people: <span id="outputFeedpeople"></span></legend>
-		<input type="button" value="-" id="minusbuttonFeedpeople" onclick="onChangeFeeding('minusbuttonFeedpeople');">
-		<input type="range" id="sliderFeedpeople" onchange="onChangeFeeding('sliderFeedpeople');">
-		<input type="button" value="+" id="plusbuttonFeedpeople" onclick="onChangeFeeding('plusbuttonFeedpeople');">
-		<img src="/images/bread.png" alt="" id="bread">
-		</fieldset>
-		<fieldset class="fieldset">
-		<legend>Plantera med utsäde: <span id="outputPlantwithseed"></span></legend>
-		<input type="button" value="-" id="minusbuttonPlantwithseed" onclick="onChangePlanting('minusbuttonPlantwithseed');">
-		<input type="range" id="sliderPlantwithseed" onchange="onChangePlanting('sliderPlantwithseed');">
-		<input type="button" value="+" id="plusbuttonPlantwithseed" onclick="onChangePlanting('plusbuttonPlantwithseed');">
-		<img id="wheat" src="/images/grain.png" alt="index">
-		</fieldset>
-	</div>
-		<div id="buttons">
-		<button type="button" onclick="gameStart();">Omstart</button>
-		<button type="button" onclick="finishTurn();">Det är min order!</button>
-		<button type="button" onclick="helpButton()">Regler</button>
-		</div>
+		<div id = "nav"> <!-- nav Start-->
+			<h1>O Great Hammurabi!</h1>
+		</div> <!--nav end-->
+		<div class="info"><!--info Start-->
+			<h2 id="year">TEXT-SOM-BYTS-UT-AV-JS-FILEN</h2>
+			<ul id="people">
+				<li id="starved">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+				<li id="newcomers">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+				<li id="population">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+			</ul>
+			<ul id="economy">
+				<li id="acres">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+				<li id="bushels">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+				<li id="harvest">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+				<li id="rats">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+				<li id="price">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
+			</ul>
+			<form>
+			<div id="choices"> <!--Choices Start-->
+				<fieldset class="fieldset">
+				<legend>Tunnland som ska säljas/köpas: <span id="outputAcrestosellbuy"></span></legend>
+				<input type="button" value="-" id="minusbuttonAcrestosellbuy" onclick="onChangeAcres('minusbuttonAcrestosellbuy');">
+				<input type="range" id="sliderAcrestosellbuy" onchange="onChangeAcres('sliderAcrestosellbuy');">
+				<input type="button" value="+" id="plusbuttonAcrestosellbuy" onclick="onChangeAcres('plusbuttonAcrestosellbuy');">
+				<img src="/images/land.png" alt="" id="land">
+				</fieldset>
+				
+				<fieldset class="fieldset">
+				<legend>Feed people: <span id="outputFeedpeople"></span></legend>
+				<input type="button" value="-" id="minusbuttonFeedpeople" onclick="onChangeFeeding('minusbuttonFeedpeople');">
+				<input type="range" id="sliderFeedpeople" onchange="onChangeFeeding('sliderFeedpeople');">
+				<input type="button" value="+" id="plusbuttonFeedpeople" onclick="onChangeFeeding('plusbuttonFeedpeople');">
+				<img src="/images/bread.png" alt="" id="bread">
+				</fieldset>
+				<fieldset class="fieldset">
+				<legend>Plantera med utsäde: <span id="outputPlantwithseed"></span></legend>
+				<input type="button" value="-" id="minusbuttonPlantwithseed" onclick="onChangePlanting('minusbuttonPlantwithseed');">
+				<input type="range" id="sliderPlantwithseed" onchange="onChangePlanting('sliderPlantwithseed');">
+				<input type="button" value="+" id="plusbuttonPlantwithseed" onclick="onChangePlanting('plusbuttonPlantwithseed');">
+				<img id="wheat" src="/images/grain.png" alt="index">
+				</fieldset>
+			</div><!--Choices end-->
+	</div><!--Info end-->
+	
+		<div id="buttons"> <!--Buttons Start-->
+			<button type="button" onclick="gameStart();">Omstart</button>
+			<button type="button" onclick="finishTurn();">Det är min order!</button>
+			<button type="button" onclick="helpButton()">Regler</button>
+		</div><!--Buttons end-->
 		</form>
-		<div id="help">
+
+		<div id="help"> <!--help Start-->
 			<h2> Spel regler </h2>
 				<p> 
-					1. <a href="http://hammurabigame.com/hammurabi-game.php"> Spelet </a> 
+					1. <a href="http://hammurabigame.com/hammurabi-game.php" target="_blank"> Spelet </a> 
 					har en längd på 10 år, där man utför 1 år i taget. <br>
 
 					2. Varje år ska det fyllas i hur mycket av skörden som ska allokeras till att mata 
@@ -80,19 +81,19 @@
 					5. Priset på tunnland varierar från 17 till 26 skäppor. <br>
 
 					6. Om landet missköts för mycket kommer befolkningen att göra uppror 
-					innan de 10 rundorna har hänt. <br>
+					innan de 10 åren har hänt. <br>
 
-					7. När man har kommit till 11 e året får man statistik på hur man har lyckats. <br>
+					7. När man har kommit till år 11 får man statistik på hur man har lyckats. <br>
 
 					Utöver detta kommer svält, pest, samt variationer i hur grödorna 
 					gror påverka spelet. <br>
 				</p>
-		</div>
+		</div><!--help end-->
 
-		<div id="background">
+		<div id="background"> <!--background Start-->
 			<h2>Bakgrund</h2>
 				<p>
-					<a href="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/hammurabi"> Hammurabi </a> 
+					<a href="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/hammurabi" target="_blank"> Hammurabi </a> 
 					1792-1750 f.Kr., var en kung i Babylon som under sin tid lyckades gå från att 
 					vara en av flera härskare i ett delat Babylonien, till att ta kontroll över 
 					hela Babylonien med hjälp av allianser och krig. <br>
@@ -101,24 +102,15 @@
 				</p>
 			<h2>Spelet</h2>
 				<p>
-					<a href="https://www.acriticalhit.com/sumerian-game-most-important-video-game-youve-never-heard/"> Spelet Hammurabi, </a> 
+					<a href="https://www.acriticalhit.com/sumerian-game-most-important-video-game-youve-never-heard/" target="_blank"> Spelet Hammurabi, </a> 
 					ibland stavat Hamurabi, släpptes för första gången 1968 i språket FOCAL. <br>
 					Spelet var inspirerat av det tidigare spelet The Sumerian Game, detta går 
 					att se i de tidiga namnen på Hammurabi som var King of Sumeria samt 
 					The Sumer Game. En uppdaterad version av spelet släpptes 1973 i språket BASIC.
 				</p>
-		</div>
+		</div> <!--background end-->
 
-		<div id="picture_links">
-			<p>
-				<a href=""> Bakgrund </a> <br>
-				<a href=""> Pengar </a> <br>
-				<a href=""> Land </a> <br>
-				<a href=""> Bröd </a> <br>
-				<a href=""> Vete </a>
-			</p>
-
-		</div>
+		<a id="links" href="link.html" target="_blank">länkar</a>
 		
 	</body>
 
