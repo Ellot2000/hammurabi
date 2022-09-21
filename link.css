@@ -4,7 +4,8 @@
 */
 
 body{
-    background-image:  url("https://i.ytimg.com/vi/rRUCCPSZNrk/maxresdefault.jpg") ;
+    background-image:  url(
+        "https://i.ytimg.com/vi/rRUCCPSZNrk/maxresdefault.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;

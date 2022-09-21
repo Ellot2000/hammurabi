@@ -2,8 +2,9 @@
 	Sune Larsson 950903-7157
 	Elliot Eriksson 001130-4672
 */
+
 /* Body styling */
-body{
+body {
 	margin: 0;
 	padding: 0;
 	background-image: url("http://wallpaperset.com/w/full/0/b/5/180191.jpg");
@@ -11,6 +12,7 @@ body{
 	background-position: center top;
 	background-attachment: fixed;
 }
+
 /* Header Styling*/
 #nav {
 	display: block;
@@ -21,9 +23,9 @@ body{
 }
 
 /*content Styling*/
-.info{
+.info {
 	background: rgba(238, 254, 255, 0.5);
-	
+
 }
 
 #people {
@@ -37,22 +39,23 @@ body{
 	display: inline;
 	margin-right: 10px;
 	border-radius: 5px;
-	
-	
 }
-#year{
+
+#year {
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 2px 1px rgb(255, 72, 0);
 
 }
+
 #economy {
 	display: block;
 	padding-left: 0;
 	list-style: none;
 	text-align: center;
 }
-#choices img{
+
+#choices img {
 	width: 35px;
 	padding-left: 12px;
 }
@@ -72,7 +75,7 @@ button {
 	padding: 10px 15px;
 	border-radius: 50px;
 	border: 0;
-		
+
 }
 
 button:hover {
@@ -80,16 +83,14 @@ button:hover {
 	cursor: pointer;
 }
 
-#buttons{
+#buttons {
 	display: block;
 	text-align: center;
 	border: 0;
 }
 
-
-
 /* text Styling*/
-#background{
+#background {
 	position: fixed;
 	top: 22%;
 	left: 5%;
@@ -103,11 +104,11 @@ button:hover {
 	box-shadow: 4px 4px 7px black;
 }
 
-#background h2{
+#background h2 {
 	text-align: center;
 }
 
-#help{
+#help {
 	display: none;
 	position: fixed;
 	right: 5%;
@@ -121,16 +122,16 @@ button:hover {
 	box-shadow: 4px 4px 7px black;
 }
 
-#help h2{
+#help h2 {
 	text-align: center;
 }
 
-a:link { 
-	text-decoration: none; 
+a:link {
+	text-decoration: none;
 }
 
 /*Link Styling*/
-#links{
+#links {
 	color: white;
 	text-decoration: none;
 	border-radius: 50px;
@@ -139,7 +140,7 @@ a:link {
 	right: 0;
 }
 
-#links:hover{
+#links:hover {
 	cursor: pointer;
 
 }
@@ -147,44 +148,38 @@ a:link {
 /*Responsive texts and link*/
 @media screen and (min-width: 601px) {
 	#help {
-	  font-size: 15px;
+		font-size: 15px;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	#help {
-	 position: relative;
-	 width: 100%;
-	 padding:0;
-	 margin-top: 5px;
-	 border-radius: 5px;
-	 right: 0;
+		position: relative;
+		width: 100%;
+		padding: 0;
+		margin-top: 5px;
+		border-radius: 5px;
+		right: 0;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	#background {
-	 position: relative;
-	 width: 100%;
-	 padding:0;
-	 left: 0;
-	 margin-top: 5px;
-	 border-radius: 5px;
-	 opacity: 0.9;
+		position: relative;
+		width: 100%;
+		padding: 0;
+		left: 0;
+		margin-top: 5px;
+		border-radius: 5px;
+		opacity: 0.9;
 	}
 }
 
 @media screen and (max-width: 1000px) {
-	#links{
+	#links {
 		position: relative;
 		display: block;
 		text-align: right;
 		left: 0;
-		
-		
-	}		
+	}
 }
-
-
-
-
